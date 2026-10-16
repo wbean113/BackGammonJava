@@ -1,4 +1,8 @@
 package model;
 
-public class GameStatus {
+public enum GameStatus{
+    GMAEOVER,
+    WAITING,
+    PLAYING,
+    ABORTED
 }
